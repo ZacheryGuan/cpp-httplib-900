@@ -46,7 +46,7 @@ public class Main {
             System.exit(1);
         }
 
-        // test infi loop behavior(fail to read socket buffer in the following code)
+        // test infi loop behavior(fail to read socket buffer in the next part of code)
         int index = 0;
         while (index >= 0) {
             index += 1;
